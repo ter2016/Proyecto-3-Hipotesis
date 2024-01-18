@@ -18,10 +18,12 @@ En este proyecto, Se busca obtener:
   - Creacion de dashboard en Power BI.
   - Creacion de presentacion que resuma de manera efectiva los resultados del análisis de datos.
 
+
 ## Instrucciones de uso:
 En el archivo de powert point encontraras la presentacion de los resultados y recomendaciones.
 El archivo .pbi es el dashboard del proyecto, este podras abrirlo mediante la herramienta de Power BI.
 En la carpeta de "dataset_spotify" podras encontrar los datos originales del proyecto (antes de su analisis)
+
 
 ## Proceso de trabajo.
 Siguiendo una lógica de pasos en secuencia, en este proyecto se aplicaron las siguientes fases:
@@ -31,6 +33,7 @@ Siguiendo una lógica de pasos en secuencia, en este proyecto se aplicaron las s
   - Validacion de Hipotesis.
   - Resumir informacion en un dashboard.
   - Presentacion de resultados con las partes interesadas.
+
 
 ## Base de Datos.
 Se trabajo con una base de datos con 3 tablas :
