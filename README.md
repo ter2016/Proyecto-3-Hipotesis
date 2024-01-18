@@ -11,6 +11,7 @@ En este proyecto, Se busca obtener:
     - Generacion de graficos basicos y avanzados.
     - Medidas de tendencia central.
     - Generacion de Histograma.
+    - ScatterPlots
   - Calculo de cuartiles y correlaciones.
   - Generacion de segmentacion por categorias.
   - Validacion de 5 hipotesis.
@@ -18,24 +19,37 @@ En este proyecto, Se busca obtener:
   - Creacion de presentacion que resuma de manera efectiva los resultados del análisis de datos.
 
 ## Instrucciones de uso:
-En el archivo de word podras visualizar aquellas querys mas destacadas usados en el proyecto para el manejo de los datos.
 En el archivo de powert point encontraras la presentacion de los resultados y recomendaciones.
-El archivo .pbi es el dashboard del proyesto, este podras abrirlo mediante la herramienta de Power BI.
+El archivo .pbi es el dashboard del proyecto, este podras abrirlo mediante la herramienta de Power BI.
+En la carpeta de "dataset_spotify" podras encontrar los datos originales del proyecto (antes de su analisis)
 
 ## Proceso de trabajo.
 Siguiendo una lógica de pasos en secuencia, en este proyecto se aplicaron las siguientes fases:
   - Procesar y preparar la limpieza de datos.
   - Hacer un analisis exploratorio.
   - Aplicar tecnica de analisis.
+  - Validacion de Hipotesis.
   - Resumir informacion en un dashboard.
   - Presentacion de resultados con las partes interesadas.
+
+## Base de Datos.
+Se trabajo con una base de datos con 3 tablas :
+  - track_in_competition. Informacion de los streams y playlist de las plataformas de competencia.
+  - track_in_spotify. Informacion de basica de las canciones en la plataforma.
+  - track_technical_info. Informacion tecnica de las canciones en la plataforma.
 
 ## Herramientas utilizadas.
   - BigQuery (SQL)
   - Power BI.
   - Google Slides.
   - Google Colab (Phyton).
+
     
+ ## Imagenes de Resultados:
+ ### Dashboard general.
+ ![](https://github.com/ter2016/Proyecto-3-Hipotesis/blob/main/Imgs/Dashboard.jpg)
+
+
 ## Archivos y Links de acceso
   - Repositorio: PresentacionResultados.pptx  https://github.com/ter2016/Proyecto-3-Hipotesis/blob/main/Proyecto_Resultados.pptx
   - Repositorio: PBI_Dashboard.pbix https://github.com/ter2016/Proyecto-3-Hipotesis/blob/main/PBI_Dashboard.pbix
